@@ -17,11 +17,12 @@
 		<Item Name="Temp" Type="Folder" URL="../Temp">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="_testcase" Type="Folder" URL="../_testcase">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="CSM-Helper.lvclass" Type="LVClass" URL="../_csmHelper/CSM-Helper.lvclass"/>
-		<Item Name="GObject Terminals.vi" Type="VI" URL="../_csmHelper/GObject Terminals.vi"/>
 		<Item Name="Test - Copy State From CSM to CSM.vi" Type="VI" URL="../Test - Copy State From CSM to CSM.vi"/>
 		<Item Name="_script_add_vi_reference_case 2.vi" Type="VI" URL="../_script_add_vi_reference_case 2.vi"/>
-		<Item Name="Test - Copy State From CSM to CSM 2.vi" Type="VI" URL="../Test - Copy State From CSM to CSM 2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="_csm_user_lib_dir.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/_scripts/_csm_user_lib_dir.vi"/>

@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -10,34 +11,22 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="_csmHelper" Type="Folder">
-			<Item Name="_support" Type="Folder">
-				<Item Name="Creation" Type="Folder"/>
-				<Item Name="Diagram" Type="Folder"/>
-				<Item Name="Refs" Type="Folder">
-					<Item Name="Filter" Type="Folder">
-						<Item Name="Terms" Type="Folder"/>
-					</Item>
-				</Item>
-				<Item Name="Typedef" Type="Folder"/>
-			</Item>
-			<Item Name="API" Type="Folder"/>
-			<Item Name="Properties" Type="Folder"/>
-			<Item Name="Typedef" Type="Folder"/>
-			<Item Name="CSM-Helper.lvclass" Type="LVClass" URL="../_csmHelper/CSM-Helper.lvclass"/>
-		</Item>
 		<Item Name="CSM" Type="Folder" URL="../CSM">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Temp" Type="Folder" URL="../Temp">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="_script_add_vi_reference_case 2.vi" Type="VI" URL="../_script_add_vi_reference_case 2.vi"/>
+		<Item Name="CSM-Helper.lvclass" Type="LVClass" URL="../_csmHelper/CSM-Helper.lvclass"/>
+		<Item Name="GObject Terminals.vi" Type="VI" URL="../_csmHelper/GObject Terminals.vi"/>
 		<Item Name="Test - Copy State From CSM to CSM.vi" Type="VI" URL="../Test - Copy State From CSM to CSM.vi"/>
+		<Item Name="_script_add_vi_reference_case 2.vi" Type="VI" URL="../_script_add_vi_reference_case 2.vi"/>
+		<Item Name="Test - Copy State From CSM to CSM 2.vi" Type="VI" URL="../Test - Copy State From CSM to CSM 2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="_csm_user_lib_dir.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/_scripts/_csm_user_lib_dir.vi"/>
 				<Item Name="Communicable State Machine.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/Communicable State Machine.lvlib"/>
+				<Item Name="Valid Refnum_nevstop.vim" Type="VI" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Application/Valid Refnum_nevstop.vim"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>

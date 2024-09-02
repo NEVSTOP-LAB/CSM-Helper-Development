@@ -23,6 +23,7 @@
 		<Item Name="CSM-Helper.lvclass" Type="LVClass" URL="../_csmHelper/CSM-Helper.lvclass"/>
 		<Item Name="Test - Copy State From CSM to CSM.vi" Type="VI" URL="../Test - Copy State From CSM to CSM.vi"/>
 		<Item Name="_script_add_vi_reference_case 2.vi" Type="VI" URL="../_script_add_vi_reference_case 2.vi"/>
+		<Item Name="Test - Check Event Structure Number.vi" Type="VI" URL="../Test - Check Event Structure Number.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="_csm_user_lib_dir.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/Communicable State Machine(CSM)/_scripts/_csm_user_lib_dir.vi"/>
